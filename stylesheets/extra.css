@@ -8,3 +8,33 @@
     margin-right: auto;
 }
 
+/* Zmniejszenie czcionki w treści */
+.md-content {
+    font-size: 0.75rem !important;
+}
+
+/* Zmniejszenie czcionki w nagłówkach */
+.md-typeset h1 {
+    font-size: 1.6rem !important;
+}
+
+.md-typeset h2 {
+    font-size: 1.3rem !important;
+}
+
+.md-typeset h3 {
+    font-size: 1.1rem !important;
+}
+
+.md-typeset h4 {
+    font-size: 0.95rem !important;
+}
+
+.md-typeset h5 {
+    font-size: 0.85rem !important;
+}
+
+.md-typeset h6 {
+    font-size: 0.75rem !important;
+}
+
