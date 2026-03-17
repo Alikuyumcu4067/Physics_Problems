@@ -1,5 +1,5 @@
 # Solution 1: Projectile Motion
-alikuyumcu
+
 ## Problem Statement
 A projectile is fired from the ground with:
 - **Initial Velocity ($v_0$):** $100 \text{ m/s}$
