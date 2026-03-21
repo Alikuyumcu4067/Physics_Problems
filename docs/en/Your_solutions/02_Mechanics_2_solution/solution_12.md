@@ -36,4 +36,19 @@ Work is the dot product of force and displacement:
 $$W = \vec{F} \cdot \Delta \vec{r} = (6)(16.5) + (2)(1.5)$$
 $$W = 99 + 3 = \mathbf{102 \, J}$$
 
-#### 3.
+#### 3. Verification: Work-Energy Theorem
+The theorem states $W = \Delta KE = KE_f - KE_i$.
+
+**Initial Kinetic Energy ($KE_i$):**
+$$v_i^2 = 1^2 + (-1)^2 = 2$$
+$$KE_i = \frac{1}{2} m v_i^2 = \frac{1}{2}(2)(2) = 2 \, J$$
+
+**Final Kinetic Energy ($KE_f$) at $t = 3$:**
+- $\vec{v}(3) = (3(3)+1, 3-1) = (10, 2)$
+- $v_f^2 = 10^2 + 2^2 = 104$
+- $KE_f = \frac{1}{2} m v_f^2 = \frac{1}{2}(2)(104) = 104 \, J$
+
+**Change in Kinetic Energy:**
+$$\Delta KE = 104 - 2 = \mathbf{102 \, J}$$
+
+**Conclusion:** Since $W = \Delta KE = 102 \, J$, the Work-Energy Theorem is verified.
