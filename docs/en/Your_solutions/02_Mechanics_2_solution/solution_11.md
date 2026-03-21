@@ -30,4 +30,10 @@ $$\vec{v}(t) = \int \vec{a}(t) \, dt + \vec{v}_0$$
 
 #### Step 3: Find Position $\vec{r}(t)$
 Position is the integral of velocity with respect to time:
-$$\vec{r}(t) = \int \vec{v}(
+$$\vec{r}(t) = \int \vec{v}(t) \, dt + \vec{r}_0$$
+
+- $x(t) = \int (\frac{5}{2}t^2 + 2) \, dt + 5 = \frac{5}{6}t^3 + 2t + 5$
+- $y(t) = \int (\frac{1}{2}t^2 - 4t) \, dt + 2 = \frac{1}{6}t^3 - 2t^2 + 2$
+- $z(t) = \int (-\frac{2}{3}t^3 + 1) \, dt - 3 = -\frac{1}{6}t^4 + t - 3$
+
+**Result:** $\vec{r}(t) = \left( \frac{5}{6}t^3 + 2t + 5, \frac{1}{6}t^3 - 2t^2 + 2, -\frac{1}{6}t^4 + t - 3 \right) \, \text{m}$
