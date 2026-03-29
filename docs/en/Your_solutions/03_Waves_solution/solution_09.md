@@ -8,13 +8,13 @@ where $m = 1 \text{ kg}$, $k = 5 \text{ N/m}$, and $b$ is the damping coefficien
 2. Create an interactive simulation to visualize the effect of damping.
 
 **Solution:**
-The behavior of the system depends on the damping ratio $\zeta$. For the given values:
-* If $b < \sqrt{4mk}$ (Underdamped): The system oscillates with decaying amplitude.
-* If $b = \sqrt{4mk}$ (Critically damped): The system returns to equilibrium as quickly as possible without oscillating.
-* If $b > \sqrt{4mk}$ (Overdamped): The system returns to equilibrium slowly without oscillating.
+The system's behavior is determined by the damping constant $b$. The roots of the characteristic equation provide three distinct cases:
+* **Underdamped ($b^2 < 4mk$):** The system oscillates with an exponentially decaying amplitude.
+* **Critically Damped ($b^2 = 4mk$):** The system returns to equilibrium in the shortest time without oscillation.
+* **Overdamped ($b^2 > 4mk$):** The system returns to equilibrium slowly without any oscillation.
 
-### Interactive Simulation (HTML/JavaScript)
-You can save the following code as an `.html` file to run the simulation in your browser:
+### Interactive Simulation Code
+Copy the code below into an `.html` file to run the simulation in a web browser:
 
 ```html
 <!DOCTYPE html>
@@ -23,8 +23,8 @@ You can save the following code as an `.html` file to run the simulation in your
     <title>Damped Oscillator Simulation</title>
     <script src="[https://cdn.plot.ly/plotly-latest.min.js](https://cdn.plot.ly/plotly-latest.min.js)"></script>
     <style>
-        body { font-family: sans-serif; text-align: center; background: #f4f4f4; }
-        #controls { margin: 20px; padding: 15px; background: white; border-radius: 8px; display: inline-block; }
+        body { font-family: Arial, sans-serif; text-align: center; background: #fdfdfd; }
+        #controls { margin: 20px; padding: 15px; background: #eee; border-radius: 10px; display: inline-block; }
     </style>
 </head>
 <body>
@@ -34,7 +34,7 @@ You can save the following code as an `.html` file to run the simulation in your
         <input type="range" id="b_val" min="0" max="10" step="0.1" value="0.5">
         <span id="b_display">0.5</span>
     </div>
-    <div id="plot" style="width:90%; height:500px; margin:auto;"></div>
+    <div id="plot" style="width:95%; height:500px; margin:auto;"></div>
 
     <script>
         const m = 1, k = 5;
@@ -45,13 +45,13 @@ You can save the following code as an `.html` file to run the simulation in your
             let b = parseFloat(bSlider.value);
             bDisplay.innerText = b;
 
-            let x = 1, v = 0, t = 0, dt = 0.05;
+            let x = 1, v = 0, t = 0, dt = 0.04;
             let timeArr = [], posArr = [];
 
-            // Numerical integration (Runge-Kutta 4th Order)
+            // RK4 Numerical Integration
             const accel = (x, v, b) => -(b * v + k * x) / m;
 
-            for (let i = 0; i < 500; i++) {
+            for (let i = 0; i < 600; i++) {
                 timeArr.push(t.toFixed(2));
                 posArr.push(x);
 
@@ -66,11 +66,11 @@ You can save the following code as an `.html` file to run the simulation in your
             }
 
             Plotly.newPlot('plot', [{
-                x: timeArr, y: posArr, mode: 'lines', line: {color: '#1f77b4'}
+                x: timeArr, y: posArr, mode: 'lines', line: {color: '#d62728', width: 3}
             }], {
-                title: 'Position x(t) vs Time',
+                title: 'Displacement x(t) over Time',
                 xaxis: { title: 'Time (s)' },
-                yaxis: { title: 'Position (m)', range: [-1.1, 1.1] }
+                yaxis: { title: 'Position (m)', range: [-1.2, 1.2] }
             });
         }
 
