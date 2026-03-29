@@ -1,3 +1,5 @@
+# Section 3: Waves
+
 ## 1. Wave Properties
 
 **Problem:**
@@ -6,10 +8,10 @@ A sound wave in air has a frequency of **440 Hz**.
 2. What is its wavelength in water, where the speed of sound is **1482 m/s**?
 
 **Solution:**
-The relationship between velocity ($v$), frequency ($f$), and wavelength ($\lambda$) is defined by the wave equation:
+The fundamental relationship between wave speed ($v$), frequency ($f$), and wavelength ($\lambda$) is given by the wave equation:
 $$v = f \lambda$$
 
-To find the wavelength, we rearrange the formula:
+To solve for the wavelength, we rearrange the formula:
 $$\lambda = \frac{v}{f}$$
 
 ### 1.1. Wavelength in Air
@@ -18,8 +20,8 @@ $$\lambda_{air} = \frac{343 \text{ m/s}}{440 \text{ Hz}}$$
 $$\lambda_{air} \approx 0.780 \text{ m}$$
 
 ### 1.2. Wavelength in Water
-Given $v_{water} = 1482 \text{ m/s}$ and $f = 440 \text{ Hz}$ (frequency remains constant across media):
+Given $v_{water} = 1482 \text{ m/s}$ and $f = 440 \text{ Hz}$ (Note: Frequency remains constant when a wave changes media):
 $$\lambda_{water} = \frac{1482 \text{ m/s}}{440 \text{ Hz}}$$
 $$\lambda_{water} \approx 3.368 \text{ m}$$
 
-**Conclusion:** Since the speed of sound is significantly higher in water than in air, the wavelength increases proportionally while the frequency stays the same.
+**Conclusion:** Because sound travels significantly faster in water than in air, the physical distance between wave crests (wavelength) increases to maintain the same frequency.
