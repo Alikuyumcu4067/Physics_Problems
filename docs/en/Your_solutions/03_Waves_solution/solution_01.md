@@ -1,16 +1,25 @@
-### 2. String Harmonics
+## 1. Wave Properties
 
 **Problem:**
-A guitar string is 64 cm long and has a fundamental frequency (one antinode) of 330 Hz. What is the speed of the wave on this string?
+A sound wave in air has a frequency of **440 Hz**. 
+1. If the speed of sound in air is **343 m/s**, what is its wavelength? 
+2. What is its wavelength in water, where the speed of sound is **1482 m/s**?
 
 **Solution:**
-For a string of length $L$ fixed at both ends, the wavelength $\lambda$ for the fundamental frequency ($n=1$, one antinode) is:
-$$L = \frac{\lambda}{2} \implies \lambda = 2L$$
+The relationship between velocity ($v$), frequency ($f$), and wavelength ($\lambda$) is defined by the wave equation:
+$$v = f \lambda$$
 
-Given $L = 64 \text{ cm} = 0.64 \text{ m}$:
-$$\lambda = 2 \times 0.64 \text{ m} = 1.28 \text{ m}$$
+To find the wavelength, we rearrange the formula:
+$$\lambda = \frac{v}{f}$$
 
-Using the wave speed formula $v = f \lambda$:
-$$v = 330 \text{ Hz} \times 1.28 \text{ m} = 422.4 \text{ m/s}$$
+### 1.1. Wavelength in Air
+Given $v_{air} = 343 \text{ m/s}$ and $f = 440 \text{ Hz}$:
+$$\lambda_{air} = \frac{343 \text{ m/s}}{440 \text{ Hz}}$$
+$$\lambda_{air} \approx 0.780 \text{ m}$$
 
-**Answer:** The speed of the wave on the string is **422.4 m/s**.
+### 1.2. Wavelength in Water
+Given $v_{water} = 1482 \text{ m/s}$ and $f = 440 \text{ Hz}$ (frequency remains constant across media):
+$$\lambda_{water} = \frac{1482 \text{ m/s}}{440 \text{ Hz}}$$
+$$\lambda_{water} \approx 3.368 \text{ m}$$
+
+**Conclusion:** Since the speed of sound is significantly higher in water than in air, the wavelength increases proportionally while the frequency stays the same.
