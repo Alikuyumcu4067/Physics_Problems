@@ -50,4 +50,5 @@ Power is the dot product of force and velocity ($P = \vec{F} \cdot \vec{v}$):
 $$P(t) = F_x v_x + F_y v_y + F_z v_z$$
 $$P(t) = 5(10t - 1) + 6t(6t^2) + 0(-3)$$
 $$P(t) = 50t - 5 + 36t^3$$
+
 **Result:** $P(t) = \mathbf{36t^3 + 50t - 5 \, \text{W}}$
