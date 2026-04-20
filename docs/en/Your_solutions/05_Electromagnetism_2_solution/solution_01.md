@@ -1,24 +1,19 @@
-### 1. Gauss's Law: Quantitative Flux Analysis
+### 1. Gauss's Law: Solution
+**Question:** A point charge of $+2\text{ C}$ is at the origin. What is the electric flux through a sphere of radius $1\text{ m}$?
 
-**Problem:** Calculation of electric flux ($\Phi_E$) for a $+2\text{ C}$ point charge enclosed by a spherical surface ($r=1\text{ m}$).
+#### Theory
+According to **Gauss's Law**, the total electric flux ($\Phi_E$) through any closed surface is given by the formula:
+$$\Phi_E = \frac{Q_{\text{enclosed}}}{\varepsilon_0}$$
 
-#### Mathematical Derivation
-The solution utilizes the integral form of **Gauss's Law**. The fundamental principle dictates that the flux is independent of the geometry of the enclosing surface and the distribution of the charge within that volume.
+#### Constants & Variables
+* **Enclosed Charge ($Q$):** $+2\text{ C}$
+* **Permittivity of Free Space ($\varepsilon_0$):** $8.854 \times 10^{-12} \text{ F/m}$
+* **Radius ($r$):** $1\text{ m}$ (Note: Flux is independent of the radius as long as the charge is enclosed.)
 
-$$\Phi_E = \oint_S \mathbf{E} \cdot d\mathbf{A} = \frac{Q_{\text{enc}}}{\varepsilon_0}$$
+#### Calculation
+1.  **Formula:** $\Phi_E = \frac{2}{8.854 \times 10^{-12}}$
+2.  **Result:** $\Phi_E \approx 225,898,124,124 \text{ V}\cdot\text{m}$
+3.  **Scientific Notation:** $\Phi_E \approx 2.26 \times 10^{11} \text{ N}\cdot\text{m}^2/\text{C}$
 
-#### Parameter Specification
-| Parameter | Symbol | Value | Unit |
-| :--- | :--- | :--- | :--- |
-| Enclosed Charge | $Q_{\text{enc}}$ | $2.0$ | Coulombs (C) |
-| Permittivity of Free Space | $\varepsilon_0$ | $8.854 \times 10^{-12}$ | $\text{C}^2/(\text{N}\cdot\text{m}^2)$ |
-| Sphere Radius | $r$ | $1.0$ | Meters (m) |
-
-#### Step-by-Step Calculation
-1. **Enclosure Verification:** The charge is at the origin $(0,0,0)$, placing it strictly inside the boundary $r=1$.
-2. **Numerical Computation:**
-   $$\Phi_E = \frac{2}{8.854 \times 10^{-12}}$$
-   $$\Phi_E \approx 2.26 \times 10^{11} \text{ V}\cdot\text{m}$$
-
-> [!TIP]
-> **Key Insight:** The radius provided in the problem is a spatial parameter that does not influence the net flux. This demonstrates the "Inverse Square Law" cancellation effect inherent in Gauss's Law.
+#### Final Verdict
+The total electric flux depends **only** on the magnitude of the enclosed charge. Since the $+2\text{ C}$ charge is inside the sphere, the radius of $1\text{ m}$ does not change the total flux, it only affects the electric field intensity at the surface.
