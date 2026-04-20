@@ -1,4 +1,4 @@
-# 🎤 Energy Stored in a Capacitor – Step-by-Step Solution
+# Energy Stored in a Capacitor 
 
 ## 🧾 Given
 
