@@ -1,4 +1,4 @@
-# 🎤 Biot–Savart Law – Step by Step Solution
+# 🎤 Biot–Savart Law – Step-by-Step Solution
 
 ## 🧾 Given
 
@@ -9,9 +9,9 @@
 
 ---
 
-## 🎯 Goal
+## 🎯 Objective
 
-Find the magnetic field (B) at point **P**.
+Calculate the magnetic field (B) at point **P**.
 
 ---
 
@@ -25,7 +25,7 @@ $$
 
 ---
 
-## 📌 Step 2: Substitute Known Values
+## 📌 Step 2: Substitute the Values
 
 $$
 dB = \frac{4\pi \times 10^{-7}}{4\pi} \cdot \frac{3 \times 0.1 \times \sin 90^\circ}{(0.2)^2}
@@ -57,7 +57,7 @@ $$
 
 ---
 
-## 📌 Step 5: Calculate Numerator
+## 📌 Step 5: Calculate the Numerator
 
 $$
 3 \times 0.1 = 0.3
@@ -69,7 +69,7 @@ $$
 
 ---
 
-## 📌 Step 6: Calculate Denominator
+## 📌 Step 6: Calculate the Denominator
 
 $$
 (0.2)^2 = 0.04
@@ -93,19 +93,10 @@ $$
 
 ---
 
-## ✅ Final Answer
+## ✅ Final Result
 
 $$
-\boxed{B = 7.5 \times 10^{-7} , \text{Tesla}}
+B = 7.5 \times 10^{-7} , \text{Tesla}
 $$
-
----
-
-## 🎤 Presentation Tip
-
-Sunumda şöyle anlat:
-
-👉 “Adım adım formülü yazdık, değerleri yerine koyduk,
-önce sabitleri sadeleştirdik, sonra sayısal işlemleri yaptık ve sonuca ulaştık.”
 
 ---
