@@ -1,30 +1,83 @@
-## 1. Gauss's Law: Quantitative Analysis of Electric Flux
+#  Gauss’s Law – Electric Flux 
+## 🧾 Given
 
-### 📝 Problem Description
-A point charge of $Q = +2\text{ C}$ is placed at the origin. We need to calculate the total electric flux through a closed spherical surface of $1\text{ m}$ radius.
-
----
-
-### ⚙️ The Solution Process (Step-by-Step)
-
-#### Step 1: Physical Law Selection
-We utilize **Gauss's Law**. The law simplifies the calculation of electric flux by stating that the shape and size (radius) of the closed surface do not affect the total flux; only the enclosed charge matters.
-
-#### Step 2: Formal Equation
-The relationship is defined as:
-$$\Phi_E = \frac{Q_{\text{enc}}}{\varepsilon_0}$$
-
-#### Step 3: Numerical Application
-Given:
-- $Q_{\text{enc}} = 2\text{ C}$
-- $\varepsilon_0 \approx 8.854 \times 10^{-12} \text{ F/m}$ (Permittivity of vacuum)
-
-Calculation:
-$$\Phi_E = \frac{2}{8.854 \times 10^{-12}}$$
-$$\Phi_E \approx 2.26 \times 10^{11} \text{ N}\cdot\text{m}^2/\text{C}$$
+* Point charge: (q = +2 , C)
+* Radius of spherical surface: (r = 1 , m)
+* Surface: sphere centered at the charge
 
 ---
 
-### 💡 Presentation Key Points
-* **Radius Independence:** Even if the radius were $10\text{ m}$ instead of $1\text{ m}$, the total flux would remain identical because the enclosed charge hasn't changed.
-* **Vector Field:** The electric field lines radiate outward symmetrically, and the flux represents the total "flow" of this field through the surface.
+## 🎯 Objective
+
+Find the **electric flux** through the spherical surface.
+
+---
+
+## 📐 Step 1: Use Gauss’s Law
+
+We use the fundamental law from Gauss's Law:
+
+$$
+\Phi_E = \frac{q_{enc}}{\varepsilon_0}
+$$
+
+### 💡 Explanation:
+
+* Electric flux depends only on the **enclosed charge**
+* It does **not depend on the radius or shape** (for closed surfaces)
+
+---
+
+## 📌 Step 2: Identify the Enclosed Charge
+
+$$
+q_{enc} = 2 , C
+$$
+
+### 💡 Explanation:
+
+The charge is located at the center, so the entire charge is enclosed by the sphere.
+
+---
+
+## 📌 Step 3: Substitute into the Formula
+
+$$
+\Phi_E = \frac{2}{\varepsilon_0}
+$$
+
+Where:
+
+$$
+\varepsilon_0 = 8.85 \times 10^{-12} , C^2/(N \cdot m^2)
+$$
+
+---
+
+## 📌 Step 4: Perform the Calculation
+
+$$
+\Phi_E = \frac{2}{8.85 \times 10^{-12}}
+$$
+
+$$
+\Phi_E \approx 2.26 \times 10^{11}
+$$
+
+---
+
+## ✅ Final Answer
+
+$$
+\boxed{\Phi_E \approx 2.26 \times 10^{11} , N \cdot m^2 / C}
+$$
+
+---
+
+## 📌 Physical Interpretation
+
+* The flux depends only on the **amount of charge inside the surface**
+* The radius (1 m) does not affect the result
+* A larger charge would produce proportionally larger flux
+
+---
