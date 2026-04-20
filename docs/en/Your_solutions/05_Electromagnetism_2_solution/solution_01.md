@@ -1,33 +1,24 @@
-# Physics Problem Set: Electromagnetism
+### 1. Gauss's Law: Quantitative Flux Analysis
 
-## 1. Gauss's Law: Electric Flux Analysis
+**Problem:** Calculation of electric flux ($\Phi_E$) for a $+2\text{ C}$ point charge enclosed by a spherical surface ($r=1\text{ m}$).
 
-### 🔍 Problem Statement
-A point charge $Q = +2\text{ C}$ is located at the origin. Calculate the total electric flux ($\Phi_E$) through a spherical surface of radius $1\text{ m}$ centered at the origin.
+#### Mathematical Derivation
+The solution utilizes the integral form of **Gauss's Law**. The fundamental principle dictates that the flux is independent of the geometry of the enclosing surface and the distribution of the charge within that volume.
 
----
+$$\Phi_E = \oint_S \mathbf{E} \cdot d\mathbf{A} = \frac{Q_{\text{enc}}}{\varepsilon_0}$$
 
-### 🛠 Theoretical Framework
-The solution is derived from **Gauss's Law**, one of Maxwell's four equations. The law states that the total flux through a closed surface depends only on the charge enclosed:
+#### Parameter Specification
+| Parameter | Symbol | Value | Unit |
+| :--- | :--- | :--- | :--- |
+| Enclosed Charge | $Q_{\text{enc}}$ | $2.0$ | Coulombs (C) |
+| Permittivity of Free Space | $\varepsilon_0$ | $8.854 \times 10^{-12}$ | $\text{C}^2/(\text{N}\cdot\text{m}^2)$ |
+| Sphere Radius | $r$ | $1.0$ | Meters (m) |
 
-$$\Phi_E = \frac{Q_{\text{enclosed}}}{\varepsilon_0}$$
-
-| Constant | Description | Value |
-| :--- | :--- | :--- |
-| $Q$ | Enclosed Charge | $+2\text{ C}$ |
-| $\varepsilon_0$ | Permittivity of Free Space | $\approx 8.854 \times 10^{-12} \text{ F/m}$ |
-
----
-
-### 📝 Solution Procedure
-
-1. **Charge Location:** The charge is at the origin, and the surface is a sphere of radius $r=1$. Therefore, $Q_{\text{enclosed}} = Q$.
-2. **Calculation:**
+#### Step-by-Step Calculation
+1. **Enclosure Verification:** The charge is at the origin $(0,0,0)$, placing it strictly inside the boundary $r=1$.
+2. **Numerical Computation:**
    $$\Phi_E = \frac{2}{8.854 \times 10^{-12}}$$
-3. **Result:**
    $$\Phi_E \approx 2.26 \times 10^{11} \text{ V}\cdot\text{m}$$
 
-> [!IMPORTANT]
-> **Observation:** The radius ($1\text{ m}$) is a distractor in this specific flux calculation. As long as the charge remains inside, the total number of electric field lines (flux) passing through the surface is constant.
-
----
+> [!TIP]
+> **Key Insight:** The radius provided in the problem is a spatial parameter that does not influence the net flux. This demonstrates the "Inverse Square Law" cancellation effect inherent in Gauss's Law.
