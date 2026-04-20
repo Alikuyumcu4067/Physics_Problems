@@ -1,4 +1,4 @@
-# 🎤 Refraction – Snell’s Law (Step-by-Step with Explanations)
+#  Refraction – Snell’s Law 
 
 ## 🧾 Given
 
