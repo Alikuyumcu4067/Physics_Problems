@@ -1,5 +1,4 @@
-# 🎤 Biot–Savart Law – Step-by-Step Solution
-
+#  Biot–Savart Law – 
 ## 🧾 Given
 
 * Current: (I = 3 , A)
