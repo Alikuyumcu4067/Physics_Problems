@@ -1,4 +1,4 @@
-#  Refraction – Snell’s Law 
+# 🎤 Refraction – Snell’s Law (Step-by-Step with Explanations)
 
 ## 🧾 Given
 
@@ -10,33 +10,37 @@
 
 ## 🎯 Objective
 
-Find the **angle of refraction** (\theta_2).
+We want to find the **angle of refraction** (\theta_2), which is the angle the light ray makes inside the glass.
 
 ---
 
-## 📐 Step 1: Use Snell’s Law
+## 📐 Step 1: Write Snell’s Law
 
-Using the law from Snell's Law:
+We start with the fundamental law of refraction from Snell's Law:
 
 $$
 n_1 \sin\theta_1 = n_2 \sin\theta_2
 $$
 
-### Explanation:
+### 💡 Explanation:
 
-This law relates how light bends when passing between two different media.
+This equation describes how light changes direction when passing from one medium to another due to a change in speed.
 
 ---
 
-## 📌 Step 2: Substitute Known Values
+## 📌 Step 2: Substitute the known values
 
 $$
 1.00 \cdot \sin 30^\circ = 1.50 \cdot \sin \theta_2
 $$
 
+### 💡 Explanation:
+
+We replace the refractive indices and the given incidence angle directly into the equation.
+
 ---
 
-## 📌 Step 3: Evaluate Sin Value
+## 📌 Step 3: Evaluate the sine value
 
 $$
 \sin 30^\circ = 0.5
@@ -46,9 +50,13 @@ $$
 1.00 \cdot 0.5 = 1.50 \cdot \sin \theta_2
 $$
 
+### 💡 Explanation:
+
+We compute the trigonometric value to simplify the equation into pure numbers.
+
 ---
 
-## 📌 Step 4: Solve for (\sin \theta_2)
+## 📌 Step 4: Isolate (\sin \theta_2)
 
 $$
 0.5 = 1.50 \sin \theta_2
@@ -62,9 +70,13 @@ $$
 \sin \theta_2 = 0.333
 $$
 
+### 💡 Explanation:
+
+We rearrange the equation to solve for the unknown variable step by step.
+
 ---
 
-## 📌 Step 5: Find the Angle
+## 📌 Step 5: Calculate the angle
 
 $$
 \theta_2 = \sin^{-1}(0.333)
@@ -73,6 +85,10 @@ $$
 $$
 \theta_2 \approx 19.5^\circ
 $$
+
+### 💡 Explanation:
+
+We take the inverse sine to convert from ratio back to angle.
 
 ---
 
@@ -84,9 +100,10 @@ $$
 
 ---
 
-## 📌 Interpretation
+## 📌 Physical Interpretation
 
-* The light bends **towards the normal** because it enters a denser medium (air → glass).
-* Since (n_2 > n_1), the refraction angle is smaller than the incidence angle.
+* Light bends **toward the normal** when entering a denser medium (air → glass).
+* This happens because light slows down in glass.
+* Since (n_2 > n_1), the refracted angle becomes smaller than the incident angle.
 
 ---
