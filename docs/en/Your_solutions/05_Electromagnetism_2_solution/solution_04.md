@@ -1,4 +1,4 @@
-# 🎤 Magnetic Torque on a Current Loop 
+#  Magnetic Torque on a Current Loop 
 
 ## 🧾 Given
 
