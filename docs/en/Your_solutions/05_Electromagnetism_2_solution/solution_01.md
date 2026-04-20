@@ -1,17 +1,33 @@
-## 1. Gauss's Law: Electric Flux Calculation
+# Physics Problem Set: Electromagnetism
 
-**Problem Statement:** A point charge of $Q = +2\text{ C}$ is located at the origin. Calculate the total electric flux ($\Phi_E$) through a spherical Gaussian surface of radius $1\text{ m}$ centered at the origin.
+## 1. Gauss's Law: Electric Flux Analysis
 
-### Theoretical Background
-According to **Gauss's Law**, the net electric flux through any closed surface is equal to the net charge enclosed divided by the permittivity of free space:
+### 🔍 Problem Statement
+A point charge $Q = +2\text{ C}$ is located at the origin. Calculate the total electric flux ($\Phi_E$) through a spherical surface of radius $1\text{ m}$ centered at the origin.
+
+---
+
+### 🛠 Theoretical Framework
+The solution is derived from **Gauss's Law**, one of Maxwell's four equations. The law states that the total flux through a closed surface depends only on the charge enclosed:
 
 $$\Phi_E = \frac{Q_{\text{enclosed}}}{\varepsilon_0}$$
 
-### Solution Steps
-1. **Identify Enclosed Charge:** The point charge $Q = 2\text{ C}$ is at the origin, thus it is entirely inside the sphere.
-2. **Apply the Formula:** - $Q_{\text{enclosed}} = 2\text{ C}$
-   - $\varepsilon_0 \approx 8.854 \times 10^{-12} \text{ F/m}$
-3. **Calculation:**
-   $$\Phi_E = \frac{2}{8.854 \times 10^{-12}} \approx 2.26 \times 10^{11} \text{ N}\cdot\text{m}^2/\text{C}$$
+| Constant | Description | Value |
+| :--- | :--- | :--- |
+| $Q$ | Enclosed Charge | $+2\text{ C}$ |
+| $\varepsilon_0$ | Permittivity of Free Space | $\approx 8.854 \times 10^{-12} \text{ F/m}$ |
 
-> **Note:** The radius of the sphere is irrelevant to the total flux as long as the charge remains enclosed, a fundamental insight provided by Gauss's Law.
+---
+
+### 📝 Solution Procedure
+
+1. **Charge Location:** The charge is at the origin, and the surface is a sphere of radius $r=1$. Therefore, $Q_{\text{enclosed}} = Q$.
+2. **Calculation:**
+   $$\Phi_E = \frac{2}{8.854 \times 10^{-12}}$$
+3. **Result:**
+   $$\Phi_E \approx 2.26 \times 10^{11} \text{ V}\cdot\text{m}$$
+
+> [!IMPORTANT]
+> **Observation:** The radius ($1\text{ m}$) is a distractor in this specific flux calculation. As long as the charge remains inside, the total number of electric field lines (flux) passing through the surface is constant.
+
+---
