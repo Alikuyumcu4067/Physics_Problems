@@ -1,22 +1,72 @@
-## 4. Phase Difference
+#  Phase Difference 
 
-**Problem:**
-What is the phase difference in radians between two points on a wave that are separated by a distance of $\lambda/3$?
+## 🧾 Given
 
-**Solution:**
-The phase difference ($\Delta \phi$) between two points is directly proportional to their spatial separation ($\Delta x$) relative to the wavelength ($\lambda$).
+* Distance between two points:
 
-The formula for phase difference is:
-$$\Delta \phi = \frac{2\pi}{\lambda} \Delta x$$
+$$
+\Delta x = \frac{\lambda}{3}
+$$
 
-**Step 1: Identify the given distance**
-The separation distance is $\Delta x = \frac{\lambda}{3}$.
+---
 
-**Step 2: Calculate the phase difference**
-Substitute $\Delta x$ into the formula:
-$$\Delta \phi = \frac{2\pi}{\lambda} \cdot \left(\frac{\lambda}{3}\right)$$
+## 🎯 Objective
 
-The $\lambda$ terms cancel out:
-$$\Delta \phi = \frac{2\pi}{3} \text{ radians}$$
+Find the **phase difference** in radians between the two points.
 
-**Answer:** The phase difference is **$2\pi/3$ radians** (which is equivalent to $120^\circ$).
+---
+
+## 📐 Step 1: Use the Phase Difference Formula
+
+We use the relation from Phase Difference:
+
+$$
+\Delta \phi = \frac{2\pi}{\lambda} \cdot \Delta x
+$$
+
+### 💡 Explanation:
+
+* Phase difference tells us how “out of sync” two points on a wave are
+* It depends on how far apart they are relative to the wavelength
+
+---
+
+## 📌 Step 2: Substitute the Given Distance
+
+$$
+\Delta \phi = \frac{2\pi}{\lambda} \cdot \frac{\lambda}{3}
+$$
+
+### 💡 Explanation:
+
+We replace (\Delta x) with the given value (\lambda/3)
+
+---
+
+## 📌 Step 3: Simplify the Expression
+
+$$
+\Delta \phi = \frac{2\pi}{3}
+$$
+
+### 💡 Explanation:
+
+The wavelength (\lambda) cancels out, leaving a simple fraction of (2\pi)
+
+---
+
+## ✅ Final Answer
+
+$$
+\boxed{\Delta \phi = \frac{2\pi}{3} , \text{radians}}
+$$
+
+---
+
+## 📌 Physical Interpretation
+
+* A full wavelength corresponds to (2\pi) radians
+* A separation of (\lambda/3) corresponds to **one-third of a full cycle**
+* Therefore, the phase difference is (2\pi/3)
+
+---
