@@ -13,20 +13,7 @@ Find the **wavelength ( \lambda )** of the standing wave.
 
 ---
 
-## 📐 Step 1: Understand the Concept
-
-A standing wave consists of:
-
-* **Nodes** → points with zero displacement
-* **Antinodes** → points with maximum displacement
-
-### 💡 Explanation:
-
-Each **antinodes corresponds to half a wavelength segment**.
-
----
-
-## 📌 Step 2: Use the Length–Wavelength Relation
+## 📐 Step 1: Recall the Formula
 
 For a string fixed at both ends:
 
@@ -36,12 +23,12 @@ L = n \cdot \frac{\lambda}{2}
 
 ### 💡 Explanation:
 
-* ( n ) = number of antinodes
-* Each antinode contributes ( \lambda/2 ) to the total length
+* Each **antinode corresponds to half a wavelength (( \lambda/2 ))**
+* So total length = number of antinodes × ( \lambda/2 )
 
 ---
 
-## 📌 Step 3: Substitute the Given Values
+## 📌 Step 2: Substitute Values
 
 [
 80 = 4 \cdot \frac{\lambda}{2}
@@ -49,7 +36,7 @@ L = n \cdot \frac{\lambda}{2}
 
 ---
 
-## 📌 Step 4: Simplify the Equation
+## 📌 Step 3: Simplify
 
 [
 80 = 2\lambda
@@ -57,11 +44,7 @@ L = n \cdot \frac{\lambda}{2}
 
 ---
 
-## 📌 Step 5: Solve for Wavelength
-
-[
-\lambda = \frac{80}{2}
-]
+## 📌 Step 4: Solve for Wavelength
 
 [
 \lambda = 40 , \text{cm}
@@ -77,10 +60,22 @@ L = n \cdot \frac{\lambda}{2}
 
 ---
 
-## 📌 Physical Interpretation
+## 📌 Correct Physical Interpretation
 
-* The string contains **4 half-wavelength segments**
-* This corresponds to **2 full wavelengths** along the string
-* Therefore, the wavelength is half the total length
+* 4 antinodes = 4 half-wavelength segments
+* That means the string contains:
+  [
+  4 \times \frac{\lambda}{2} = 2\lambda
+  ]
+
+So:
+[
+L = 2\lambda
+]
+
+👉 Therefore:
+[
+\lambda = \frac{L}{2}
+]
 
 ---
