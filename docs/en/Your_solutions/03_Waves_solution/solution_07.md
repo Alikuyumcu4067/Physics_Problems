@@ -1,81 +1,80 @@
-#  Standing Wave Modes 
+# Standing Wave Modes 
 
 ## 🧾 Given
 
-* String length: ( L = 80 , \text{cm} )
-* Number of antinodes: ( n = 4 )
+* String length: L = 80 cm
+* Number of antinodes: n = 4
 
 ---
 
 ## 🎯 Objective
 
-Find the **wavelength ( \lambda )** of the standing wave.
+Find the wavelength (λ) of the standing wave.
 
 ---
 
-## 📐 Step 1: Recall the Formula
+## 📐 Step 1: Understand the physical idea
 
-For a string fixed at both ends:
+A standing wave on a string fixed at both ends is made up of repeating segments.
 
-[
-L = n \cdot \frac{\lambda}{2}
-]
+Each antinode corresponds to half of a wavelength.
 
 ### 💡 Explanation:
 
-* Each **antinode corresponds to half a wavelength (( \lambda/2 ))**
-* So total length = number of antinodes × ( \lambda/2 )
+* One full wavelength contains 2 antinodes worth of structure
+* So each antinode represents λ/2
 
 ---
 
-## 📌 Step 2: Substitute Values
+## 📌 Step 2: Write the relationship
 
-[
-80 = 4 \cdot \frac{\lambda}{2}
-]
+For a standing wave:
 
----
+L = n × (λ / 2)
 
-## 📌 Step 3: Simplify
+### 💡 Explanation:
 
-[
-80 = 2\lambda
-]
+* L = total length of the string
+* n = number of antinodes
+* λ/2 = length of one segment between nodes
 
 ---
 
-## 📌 Step 4: Solve for Wavelength
+## 📌 Step 3: Substitute values
 
-[
-\lambda = 40 , \text{cm}
-]
+L = 4 × (λ / 2)
+
+---
+
+## 📌 Step 4: Simplify
+
+L = 2λ
+
+### 💡 Explanation:
+
+Because 4 × (1/2) = 2
+
+---
+
+## 📌 Step 5: Solve for wavelength
+
+λ = L / 2
+λ = 80 cm / 2
+λ = 40 cm
 
 ---
 
 ## ✅ Final Answer
 
-[
-\boxed{\lambda = 40 , \text{cm}}
-]
+λ = 40 cm
 
 ---
 
-## 📌 Correct Physical Interpretation
+## 📌 Physical interpretation
 
-* 4 antinodes = 4 half-wavelength segments
-* That means the string contains:
-  [
-  4 \times \frac{\lambda}{2} = 2\lambda
-  ]
-
-So:
-[
-L = 2\lambda
-]
-
-👉 Therefore:
-[
-\lambda = \frac{L}{2}
-]
+* The string contains 4 antinodes
+* That means it has 4 half-wavelength segments
+* So total length equals 2 full wavelengths
+* Therefore each full wavelength is 40 cm
 
 ---
