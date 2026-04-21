@@ -1,22 +1,86 @@
-## 7. Standing Wave Modes
+#  Standing Wave Modes 
 
-**Problem:**
-A standing wave with **four antinodes** is produced on a string of length $L = 80 \text{ cm}$. What is the wavelength of this wave?
+## 🧾 Given
 
-**Solution:**
-For a string fixed at both ends, the number of antinodes corresponds to the harmonic number ($n$). In this case, there are four antinodes, so $n = 4$ (the fourth harmonic).
+* String length: ( L = 80 , \text{cm} )
+* Number of antinodes: ( n = 4 )
 
-The relationship between the length of the string ($L$) and the wavelength ($\lambda$) for the $n$-th harmonic is:
-$$L = n \frac{\lambda}{2}$$
+---
 
-**Step 1: Convert length to meters**
-$$L = 80 \text{ cm} = 0.80 \text{ m}$$
+## 🎯 Objective
 
-**Step 2: Solve for wavelength ($\lambda$)**
-Using $n = 4$ and $L = 0.80 \text{ m}$:
-$$0.80 = 4 \left( \frac{\lambda}{2} \right)$$
-$$0.80 = 2\lambda$$
-$$\lambda = \frac{0.80}{2}$$
-$$\lambda = 0.40 \text{ m}$$
+Find the **wavelength ( \lambda )** of the standing wave.
 
-**Answer:** The wavelength of the wave is **0.40 m** (or 40 cm).
+---
+
+## 📐 Step 1: Understand the Concept
+
+A standing wave consists of:
+
+* **Nodes** → points with zero displacement
+* **Antinodes** → points with maximum displacement
+
+### 💡 Explanation:
+
+Each **antinodes corresponds to half a wavelength segment**.
+
+---
+
+## 📌 Step 2: Use the Length–Wavelength Relation
+
+For a string fixed at both ends:
+
+[
+L = n \cdot \frac{\lambda}{2}
+]
+
+### 💡 Explanation:
+
+* ( n ) = number of antinodes
+* Each antinode contributes ( \lambda/2 ) to the total length
+
+---
+
+## 📌 Step 3: Substitute the Given Values
+
+[
+80 = 4 \cdot \frac{\lambda}{2}
+]
+
+---
+
+## 📌 Step 4: Simplify the Equation
+
+[
+80 = 2\lambda
+]
+
+---
+
+## 📌 Step 5: Solve for Wavelength
+
+[
+\lambda = \frac{80}{2}
+]
+
+[
+\lambda = 40 , \text{cm}
+]
+
+---
+
+## ✅ Final Answer
+
+[
+\boxed{\lambda = 40 , \text{cm}}
+]
+
+---
+
+## 📌 Physical Interpretation
+
+* The string contains **4 half-wavelength segments**
+* This corresponds to **2 full wavelengths** along the string
+* Therefore, the wavelength is half the total length
+
+---
