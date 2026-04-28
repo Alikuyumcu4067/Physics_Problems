@@ -25,7 +25,7 @@ What electric field strength is required to make a proton levitate against Earth
 
 ## I. Physical Principle
 
-For levitation, the net force must be zero:
+For levitation, the net force on the proton must be zero:
 
 \[
 \sum F = 0
@@ -33,10 +33,17 @@ For levitation, the net force must be zero:
 
 Two forces act on the proton:
 
-- Gravitational force: \( F_g = m_p g \) (downward)
-- Electric force: \( F_e = qE \) (upward)
+- Gravitational force:
+\[
+F_g = m_p g
+\]
 
-At equilibrium:
+- Electric force:
+\[
+F_e = qE
+\]
+
+For equilibrium:
 
 \[
 F_e = F_g
@@ -72,30 +79,29 @@ E = \frac{1.6366 \times 10^{-26}}{1.6 \times 10^{-19}}
 E \approx 1.02 \times 10^{-7} \, \text{N/C}
 \]
 
-(Since \(1 \, \text{N/C} = 1 \, \text{V/m}\), both units are valid.)
+Since \( 1 \, \text{N/C} = 1 \, \text{V/m} \), both units are equivalent.
 
 ---
 
 ## IV. Direction of the Field
 
-- The proton has positive charge.
-- Therefore, electric force is in the same direction as the electric field.
+- The proton has a positive charge.
+- Therefore, the electric force acts in the same direction as the electric field.
 
-To balance gravity, the field must point upward.
+To balance gravity, the electric field must point upward.
 
 ---
 
 ## Final Result
 
-- **Electric field strength:**
 \[
 \boxed{E \approx 1.02 \times 10^{-7} \, \text{N/C}}
 \]
 
-- **Direction:** Upward
+**Direction:** Upward
 
 ---
 
 ## Key Insight
 
-The required electric field is extremely small in macroscopic terms, but at the atomic scale electromagnetic forces dominate gravitational forces by many orders of magnitude. This is why gravity is typically negligible in particle-level interactions compared to electrostatic effects.
+The required electric field is extremely small in macroscopic terms. However, at the atomic scale, electromagnetic forces are many orders of magnitude stronger than gravitational forces, making gravity negligible in most particle-level interactions.
