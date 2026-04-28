@@ -1,60 +1,45 @@
 # Section 4: Electromagnetism I
+## Task 5: Field Levitation
 
-Your soultions go here!!!!
+### 1. Problem Statement
+What electric field strength ($E$) is required to make a proton levitate against Earth's gravity at the level of the Earth's surface?
+
+**Given Constants:**
+* Mass of proton ($m_p$): $1.67 \times 10^{-27} \text{ kg}$
+* Charge of proton ($e$): $1.6 \times 10^{-19} \text{ C}$
+* Gravitational acceleration ($g$): $9.8 \text{ m/s}^2$
 
 ---
 
-Below it is just a copy of the tasks, so you can easily navigate to the task you want to solve. You can also use the links in the sidebar to navigate to the tasks.
+### 2. Physical Principle: Static Equilibrium
+For the proton to levitate, the net force acting on it must be zero ($\sum F = 0$). This means the upward electric force must exactly balance the downward gravitational force.
 
-## 1. Coulomb's Law
+* **Gravitational Force ($F_g$):** Acts downward.
+* **Electric Force ($F_e$):** Acts upward.
 
-Four point charges of +1.0 C each are placed at the corners of a square with sides of 1.0 m. Calculate the magnitude and direction of the electric force on a charge of -2.0 C placed at the center of the square.
+---
 
-## 2. Electric Potential
+### 3. Derivation
+To achieve equilibrium:
+$$F_e = F_g$$
 
-Point charges of +1C, -2C, +3C, and -4C are placed at the corners of a square with sides of 1.0 m (in order). Calculate the electric potential at the center of the square.
+Substituting the formulas for each force:
+$$e \cdot E = m_p \cdot g$$
 
-## 3. Electrostatic Equilibrium
+Solving for the **Electric Field ($E$)**:
+$$E = \frac{m_p \cdot g}{e}$$
 
-Find the equilibrium position for a charge $q_3 = +1\text{C}$ placed on the line between a charge $q_1 = +4\text{C}$ and a charge $q_2 = +9\text{C}$, which are separated by a distance of 2 m.
+---
 
-## 4. Force Comparison
+### 4. Calculation
+Plugging in the numerical values:
+$$E = \frac{(1.67 \times 10^{-27} \text{ kg}) \cdot (9.8 \text{ m/s}^2)}{1.6 \times 10^{-19} \text{ C}}$$
 
-Calculate the magnitude of the electric force and the gravitational force between an electron and a proton in a hydrogen atom (average distance $r \approx 5.3 \times 10^{-11} \text{ m}$). What is the ratio $F_e/F_g$?
+$$E \approx 1.02 \times 10^{-7} \text{ N/C}$$
 
-## 5. Field Levitation
+---
 
-What electric field strength is required to make a proton levitate against Earth's gravity at the level of the Earth's surface? (Mass of proton $m_p \approx 1.67 \times 10^{-27} \text{ kg}$, charge of proton $e \approx 1.6 \times 10^{-19} \text{ C}$, gravitational acceleration $g \approx 9.8 \text{ m/s}^2$).
+### 5. Conclusion
+The required electric field strength is approximately **$1.02 \times 10^{-7} \text{ N/C}$**.
 
-##  6. Field at a point from a system of charges
-
-Two point charges are given:
-
-* $+q\  \text{at point}\  (-a, 0)$
-* $+2q\  \text{at point}\  (a, 0)$
-
-1. Determine the field vector $\vec E(0, y)$, $\vec E(x, 0)$ and generally $\vec E(x, y)$.
-2. Determine the condition for which the components $E_x = 0$, $E_y = 0$ and the zero field $\vec E = 0$.
-3. Calculate the field for: $a = 0.2\,\mathrm{m}$, $y = 0.3\,\mathrm{m}$, $q = 2\,\mu\mathrm{C}$.
-4. Investigate the limit $y \gg a$.
-
-##  7. Cyclotron Motion
-
-An electron is accelerated from rest through a potential difference of 5000 V. It then enters a region of uniform magnetic field B = 0.1 T, perpendicular to its velocity. What is the radius of the circular path it will follow?
-
-## 8. Lorentz Force
-
-A charged particle with charge $q = 2 \times 10^{-19}$ C and mass $m = 4 \times 10^{-27}$ kg enters a magnetic field of $B = 0.5$ T at a speed of $v = 10^6$ m/s perpendicular to the field. What is the magnitude of the Lorentz force acting on the particle?
-
-## 9. Vector Lorentz Force
-
-A proton moves with a velocity $\vec{v} = (2\hat{i} - 4\hat{j} + \hat{k}) \text{ m/s}$ in a region where the magnetic field is $\vec{B} = (\hat{i} + 2\hat{j} - \hat{k}) \text{ T}$. What is the magnitude of the magnetic force this charge experiences?
-
-## 10. Lorentz Force acting on Wire
-
-A straight wire 2.0 m long carries a current of 10 A. It is placed in a uniform magnetic field of B = 0.5 T. Calculate the magnetic force on the wire if the angle between the wire and the magnetic field is:
-
-a) $90^\circ$
-b) $45^\circ$
-c) $0^\circ$
-
+**Insight:** The result is remarkably small. This demonstrates that the electromagnetic force is significantly stronger than gravity. Even a very weak electric field is sufficient to counteract the gravity acting on a subatomic particle like a proton due to its incredibly small mass.
