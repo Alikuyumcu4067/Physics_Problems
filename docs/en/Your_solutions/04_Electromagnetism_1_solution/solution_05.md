@@ -1,107 +1,58 @@
-# Section 4: Electromagnetism I - Problem 5
-
-## 5. Field Levitation: Balancing Electrostatic and Gravitational Forces
-
----
-
-## Problem
-
-What electric field strength is required to make a proton levitate against Earth's gravity at the surface of the Earth?
+# Section 4: Electromagnetism I
+## Task 05: Analysis of Proton Levitation in a Uniform Electric Field
 
 ---
 
-## Given Data
+### 1. Objective
+The goal is to determine the required **Electric Field Intensity ($\vec{E}$)** that allows a single proton to levitate near the Earth's surface by balancing the forces of gravity and electromagnetism.
 
-- Proton mass:  
-  \( m_p = 1.67 \times 10^{-27} \, \text{kg} \)
+### 2. Physical Principles
+For a particle to achieve **static equilibrium**, the vector sum of all forces acting upon it must be zero according to Newton's First Law:
 
-- Proton charge:  
-  \( e = 1.6 \times 10^{-19} \, \text{C} \)
+$$\sum \vec{F} = 0 \implies \vec{F}_{electric} + \vec{F}_{gravity} = 0$$
 
-- Gravitational acceleration:  
-  \( g = 9.8 \, \text{m/s}^2 \)
+#### Forces Involved:
+* **Gravitational Force ($F_g$):** Acts vertically downward.
+    * Formula: $F_g = m_p \cdot g$
+* **Electric Force ($F_e$):** Must act vertically upward to oppose gravity.
+    * Formula: $F_e = q \cdot E$
 
----
 
-## I. Physical Principle
-
-For levitation, the net force on the proton must be zero:
-
-\[
-\sum F = 0
-\]
-
-Two forces act on the proton:
-
-- Gravitational force:
-\[
-F_g = m_p g
-\]
-
-- Electric force:
-\[
-F_e = qE
-\]
-
-For equilibrium:
-
-\[
-F_e = F_g
-\]
 
 ---
 
-## II. Equilibrium Equation
+### 3. Parameters and Constants
+The following standardized values are used for the calculation:
 
-\[
-qE = m_p g
-\]
-
-For a proton, \( q = e \), so:
-
-\[
-E = \frac{m_p g}{e}
-\]
+| Parameter | Symbol | Value |
+| :--- | :--- | :--- |
+| **Proton Mass** | $m_p$ | $1.67 \times 10^{-27} \text{ kg}$ |
+| **Elementary Charge** | $e$ | $1.60 \times 10^{-19} \text{ C}$ |
+| **Gravitational Acceleration** | $g$ | $9.80 \text{ m/s}^2$ |
 
 ---
 
-## III. Calculation
+### 4. Mathematical Derivation
+To achieve levitation, the magnitudes of the upward and downward forces must be equal:
 
-\[
-E = \frac{(1.67 \times 10^{-27})(9.8)}{1.6 \times 10^{-19}}
-\]
+$$F_e = F_g$$
+$$q \cdot E = m_p \cdot g$$
 
-\[
-E = \frac{1.6366 \times 10^{-26}}{1.6 \times 10^{-19}}
-\]
+By isolating the **Electric Field ($E$)**, we derive:
+$$E = \frac{m_p \cdot g}{q}$$
 
-\[
-E \approx 1.02 \times 10^{-7} \, \text{N/C}
-\]
+### 5. Quantitative Calculation
+Substituting the known values into the derivation:
 
-Since \( 1 \, \text{N/C} = 1 \, \text{V/m} \), both units are equivalent.
+$$E = \frac{(1.67 \times 10^{-27} \text{ kg}) \cdot (9.80 \text{ m/s}^2)}{1.60 \times 10^{-19} \text{ C}}$$
 
----
+$$E = \frac{1.6366 \times 10^{-26}}{1.60 \times 10^{-19}}$$
 
-## IV. Direction of the Field
-
-- The proton has a positive charge.
-- Therefore, the electric force acts in the same direction as the electric field.
-
-To balance gravity, the electric field must point upward.
+**$$E \approx 1.02 \times 10^{-7} \text{ V/m (or N/C)}$$**
 
 ---
 
-## Final Result
-
-\[
-\boxed{E \approx 1.02 \times 10^{-7} \, \text{N/C}}
-\]
-
-**Direction:** Upward
-
----
-
-## Key Insight
-
-The required electric field is extremely small in macroscopic terms. However, at the atomic scale, electromagnetic forces are many orders of magnitude stronger than gravitational forces, making gravity negligible in most particle-level interactions.
+### 6. Vector Direction and Conclusion
+* **Direction:** Since the proton is a positively charged particle, the force it experiences is in the same direction as the electric field. To create an upward force, the **Electric Field must point vertically upward**.
+* **Final Result:** An electric field of approximately **$1.02 \times 10^{-7} \text{ V/m}$** is required.
+* **Scientific Insight:** This incredibly small value demonstrates the massive disparity between fundamental forces; the electromagnetic interaction is many orders of magnitude stronger than gravity at the subatomic level.
