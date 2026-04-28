@@ -6,26 +6,26 @@
 
 ## Problem
 
-What electric field strength is required to make a proton levitate against Earth's gravity at the level of the Earth's surface?
+What electric field strength is required to make a proton levitate against Earth's gravity at the surface of the Earth?
 
 ---
 
 ## Given Data
 
-- Mass of proton:  
-  \( m_p \approx 1.67 \times 10^{-27} \, \text{kg} \)
+- Proton mass:  
+  \( m_p = 1.67 \times 10^{-27} \, \text{kg} \)
 
-- Charge of proton:  
-  \( e \approx 1.6 \times 10^{-19} \, \text{C} \)
+- Proton charge:  
+  \( e = 1.6 \times 10^{-19} \, \text{C} \)
 
 - Gravitational acceleration:  
-  \( g \approx 9.8 \, \text{m/s}^2 \)
+  \( g = 9.8 \, \text{m/s}^2 \)
 
 ---
 
 ## I. Physical Principle
 
-For levitation, the net force on the proton must be zero:
+For levitation, the net force must be zero:
 
 \[
 \sum F = 0
@@ -33,10 +33,10 @@ For levitation, the net force on the proton must be zero:
 
 Two forces act on the proton:
 
-- Gravitational force \( F_g \): downward  
-- Electric force \( F_e \): upward  
+- Gravitational force: \( F_g = m_p g \) (downward)
+- Electric force: \( F_e = qE \) (upward)
 
-To achieve equilibrium:
+At equilibrium:
 
 \[
 F_e = F_g
@@ -44,27 +44,21 @@ F_e = F_g
 
 ---
 
-## II. Equilibrium Condition
+## II. Equilibrium Equation
 
 \[
 qE = m_p g
 \]
 
-where:
-- \( q = e \) (proton charge)
-- \( E \) is the electric field strength
-
----
-
-## III. Calculation
-
-Rearranging for \( E \):
+For a proton, \( q = e \), so:
 
 \[
 E = \frac{m_p g}{e}
 \]
 
-Substituting values:
+---
+
+## III. Calculation
 
 \[
 E = \frac{(1.67 \times 10^{-27})(9.8)}{1.6 \times 10^{-19}}
@@ -75,21 +69,19 @@ E = \frac{1.6366 \times 10^{-26}}{1.6 \times 10^{-19}}
 \]
 
 \[
-E \approx 1.02 \times 10^{-7} \, \text{V/m}
+E \approx 1.02 \times 10^{-7} \, \text{N/C}
 \]
+
+(Since \(1 \, \text{N/C} = 1 \, \text{V/m}\), both units are valid.)
 
 ---
 
 ## IV. Direction of the Field
 
-- The proton is positively charged.
-- Electric force acts in the same direction as the electric field.
+- The proton has positive charge.
+- Therefore, electric force is in the same direction as the electric field.
 
-Therefore, to counteract gravity:
-
-\[
-\text{Electric field must point upward}
-\]
+To balance gravity, the field must point upward.
 
 ---
 
@@ -97,7 +89,7 @@ Therefore, to counteract gravity:
 
 - **Electric field strength:**
 \[
-\boxed{E \approx 1.02 \times 10^{-7} \, \text{V/m}}
+\boxed{E \approx 1.02 \times 10^{-7} \, \text{N/C}}
 \]
 
 - **Direction:** Upward
@@ -106,4 +98,4 @@ Therefore, to counteract gravity:
 
 ## Key Insight
 
-This extremely small field strength shows that the proton’s gravitational force is negligible compared to electrostatic forces at the atomic scale. Gravity has very little influence on elementary particles compared to electromagnetic interactions.
+The required electric field is extremely small in macroscopic terms, but at the atomic scale electromagnetic forces dominate gravitational forces by many orders of magnitude. This is why gravity is typically negligible in particle-level interactions compared to electrostatic effects.
