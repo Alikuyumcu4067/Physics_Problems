@@ -53,4 +53,4 @@ In power systems and atmospheric physics, values of this magnitude are typically
 The analysis concludes that the lightning bolt generates an average current of **$15\text{ kA}$**. While the duration is extremely brief, the current magnitude is sufficient to cause significant thermal expansion and electromagnetic interference (EMI).
 
 ---
-*Document Ref: ELEC-6-SEC-10 | Author: Gemini AI*
+
