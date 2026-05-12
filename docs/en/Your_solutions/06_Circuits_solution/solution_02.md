@@ -1,39 +1,40 @@
-## 2. Resistors
+## 2. Voltage Divider in Series Circuit
 
 ### **Problem Statement**
-You have a supply of exactly three $1\, \Omega$ resistors. What are all the possible equivalent resistances you can create by combining all three of them? List all unique values.
+Two resistors, $R_1 = 100\,\Omega$ and $R_2 = 200\,\Omega$, are connected in series to a **24 V** power supply. 
+* Calculate the voltage drop across each resistor ($V_1$ and $V_2$).
+* Verify the results using Kirchhoff's Voltage Law (KVL).
 
 ---
 
-### **Possible Combinations**
 
-There are exactly four ways to connect three identical resistors:
 
-#### **1. All in Series**
-When all resistors are in a single line, their values add up.
-* **Formula:** $R_{eq} = R + R + R$
-* **Calculation:** $1 + 1 + 1 = \mathbf{3\, \Omega}$
+#### **STEP 1: Calculate Total Resistance ($R_{eq}$)**
+Since the resistors are in series, we simply add them together.
+* **Formula:** $R_{eq} = R_1 + R_2$
+* **Calculation:** $100\,\Omega + 200\,\Omega = \mathbf{300\,\Omega}$
 
-#### **2. All in Parallel**
-When all resistors are connected across the same two nodes.
-* **Formula:** $\frac{1}{R_{eq}} = \frac{1}{R} + \frac{1}{R} + \frac{1}{R}$
-* **Calculation:** $\frac{1}{R_{eq}} = \frac{1}{1} + \frac{1}{1} + \frac{1}{1} = 3 \Rightarrow R_{eq} = \mathbf{\frac{1}{3} \approx 0.33\, \Omega}$
+#### **STEP 2: Calculate Circuit Current ($I$)**
+Using Ohm’s Law for the entire circuit to find the common current.
+* **Formula:** $I = \frac{V_{total}}{R_{eq}}$
+* **Calculation:** $I = \frac{24\,\text{V}}{300\,\Omega} = \mathbf{0.08\,\text{A}}$ (or $80\,\text{mA}$)
 
-#### **3. Two in Parallel, One in Series**
-Two resistors are branched, and the third one is on the main line.
-* **Formula:** $R_{eq} = \left( \frac{R \cdot R}{R + R} \right) + R$
-* **Calculation:** $\left( \frac{1 \cdot 1}{1 + 1} \right) + 1 = 0.5 + 1 = \mathbf{1.5\, \Omega}$
+#### **STEP 3: Calculate Individual Voltage Drops**
+Now, apply Ohm’s Law ($V = I \times R$) to each resistor individually.
+* **For $R_1$:** $V_1 = 0.08\,\text{A} \times 100\,\Omega = \mathbf{8\,\text{V}}$
+* **For $R_2$:** $V_2 = 0.08\,\text{A} \times 200\,\Omega = \mathbf{16\,\text{V}}$
 
-#### **4. Two in Series, One in Parallel**
-Two resistors are in a line, and the third one is branched across both of them.
-* **Formula:** $R_{eq} = \frac{(R + R) \cdot R}{(R + R) + R}$
-* **Calculation:** $\frac{(1 + 1) \cdot 1}{(2) + 1} = \frac{2}{3} = \mathbf{\frac{2}{3} \approx 0.67\, \Omega}$
+#### **STEP 4: Verification using KVL**
+According to Kirchhoff's Voltage Law, the sum of voltage drops must equal the source voltage.
+* **Verification:** $V_{total} = V_1 + V_2$
+* **Check:** $8\,\text{V} + 16\,\text{V} = 24\,\text{V}$
+* **Status:** **Verified** ✅
 
 ---
 
-### **Summary of Unique Values**
-The unique equivalent resistances possible are:
-* **$0.33\, \Omega$**
-* **$0.67\, \Omega$**
-* **$1.5\, \Omega$**
-* **$3.0\, \Omega$**
+### **Final Results**
+| Component | Resistance | Voltage Drop |
+| :--- | :--- | :--- |
+| **Resistor 1** | $100\,\Omega$ | $8\,\text{V}$ |
+| **Resistor 2** | $200\,\Omega$ | $16\,\text{V}$ |
+| **Total** | **$300\,\Omega$** | **$24\,\text{V}$** |
