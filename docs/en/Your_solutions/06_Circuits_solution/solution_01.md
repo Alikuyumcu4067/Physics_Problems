@@ -1,47 +1,45 @@
 ## 1. Series and Parallel Circuits
 
 ### **Problem Statement**
-Given a circuit with a **12 V** battery and three resistors:
-* $R_1 = 15\, \Omega$
-* $R_2 = 30\, \Omega$
-* $R_3 = 50\, \Omega$
-
-Calculate the total equivalent resistance ($R_{eq}$) and the current ($I$) flowing from the battery for both **series** and **parallel** configurations.
+You have three resistors $R_1 = 15\,\Omega$, $R_2 = 30\,\Omega$, and $R_3 = 50\,\Omega$ connected to a **12 V** battery. Calculate the total equivalent resistance ($R_{eq}$) and the total current ($I$) for both configurations.
 
 ---
 
-### **Case A: Series Connection**
-In a series circuit, the total resistance is the algebraic sum of all individual resistances. The current remains the same through all components.
+### **Case A: All Connected in Series**
 
-#### **1. Equivalent Resistance ($R_{eq}$)**
-$$R_{eq} = R_1 + R_2 + R_3$$
-$$R_{eq} = 15\, \Omega + 30\, \Omega + 50\, \Omega = \mathbf{95\, \Omega}$$
+#### **STEP 1: Calculate the Equivalent Resistance ($R_{eq}$)**
+In a series circuit, the total resistance is the sum of all individual resistances.
+* **Formula:** $R_{eq} = R_1 + R_2 + R_3$
+* **Calculation:** $R_{eq} = 15\,\Omega + 30\,\Omega + 50\,\Omega$
+* **Result:** **$R_{eq} = 95\,\Omega$**
 
-#### **2. Total Current ($I$)**
-Using Ohm's Law ($V = I \cdot R$):
-$$I = \frac{V}{R_{eq}} = \frac{12\, \text{V}}{95\, \Omega} \approx \mathbf{0.126\, \text{A}}$$
-
----
-
-### **Case B: Parallel Connection**
-In a parallel circuit, the reciprocal of the equivalent resistance is the sum of the reciprocals of each individual resistance. The voltage across each resistor is equal to the battery voltage.
-
-#### **1. Equivalent Resistance ($R_{eq}$)**
-$$\frac{1}{R_{eq}} = \frac{1}{R_1} + \frac{1}{R_2} + \frac{1}{R_3}$$
-$$\frac{1}{R_{eq}} = \frac{1}{15} + \frac{1}{30} + \frac{1}{50}$$
-
-*Finding a common denominator (150):*
-$$\frac{1}{R_{eq}} = \frac{10}{150} + \frac{5}{150} + \frac{3}{150} = \frac{18}{150}$$
-$$R_{eq} = \frac{150}{18} \approx \mathbf{8.33\, \Omega}$$
-
-#### **2. Total Current ($I$)**
-$$I = \frac{V}{R_{eq}} = \frac{12\, \text{V}}{8.33\, \Omega} \approx \mathbf{1.44\, \text{A}}$$
+#### **STEP 2: Calculate the Total Current ($I$)**
+Using Ohm's Law, we find the current flowing from the battery.
+* **Formula:** $I = \frac{V}{R_{eq}}$
+* **Calculation:** $I = \frac{12\,\text{V}}{95\,\Omega}$
+* **Result:** **$I \approx 0.126\,\text{A}$**
 
 ---
 
-### **Results Comparison**
+### **Case B: All Connected in Parallel**
 
-| Configuration | Equivalent Resistance ($R_{eq}$) | Total Current ($I$) |
+#### **STEP 1: Calculate the Equivalent Resistance ($R_{eq}$)**
+In a parallel circuit, the reciprocal of the total resistance is the sum of the reciprocals of each resistance.
+* **Formula:** $\frac{1}{R_{eq}} = \frac{1}{R_1} + \frac{1}{R_2} + \frac{1}{R_3}$
+* **Calculation:** $\frac{1}{R_{eq}} = \frac{1}{15} + \frac{1}{30} + \frac{1}{50}$
+* **Common Denominator (150):** $\frac{1}{R_{eq}} = \frac{10}{150} + \frac{5}{150} + \frac{3}{150} = \frac{18}{150}$
+* **Result:** $R_{eq} = \frac{150}{18} \approx \mathbf{8.33\,\Omega}$
+
+#### **STEP 2: Calculate the Total Current ($I$)**
+Using Ohm's Law for the parallel equivalent.
+* **Formula:** $I = \frac{V}{R_{eq}}$
+* **Calculation:** $I = \frac{12\,\text{V}}{8.33\,\Omega}$
+* **Result:** **$I \approx 1.44\,\text{A}$**
+
+---
+
+### **Comparison Table**
+| Configuration | Equivalent Resistance ($R_{eq}$) | Battery Current ($I$) |
 | :--- | :--- | :--- |
-| **Series** | $95\, \Omega$ | $0.126\, \text{A}$ |
-| **Parallel** | $8.33\, \Omega$ | $1.44\, \text{A}$ |
+| **Series** | $95\,\Omega$ | $0.126\,\text{A}$ |
+| **Parallel** | $8.33\,\Omega$ | $1.44\,\text{A}$ |
