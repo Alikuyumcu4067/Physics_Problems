@@ -16,8 +16,6 @@ By deactivating the rotational turntable mechanism, localized thermal hotspots a
 
 Inside a microwave cavity, the superposition of a forwarded planar electromagnetic wave and its reflection from the internal metallic walls produces a static spatial configuration known as a **standing wave**. 
 
-
-
 The spatial distribution of the electric field intensity forms nodes (zero amplitude) and antinodes (maximum amplitude). Thermal energy deposition occurs primarily at the antinodes. The physical distance between two consecutive antinodes (or adjacent melted points on the chocolate) corresponds to exactly half of a full wavelength ($\lambda/2$).
 
 Therefore, the boundary condition dictates:
@@ -44,16 +42,21 @@ $$\lambda = 2 \cdot 0.061 \text{ m} = 0.122 \text{ m}$$
 Substitute the absolute frequency and calculated wavelength parameters into the wave function:
 $$c = f \cdot \lambda$$
 $$c = (2.45 \times 10^9 \text{ s}^{-1}) \cdot (0.122 \text{ m})$$
-$$c = 298,900,000 \text{ m/s} = 2.989 \times 10^8 \text{ m/s}$$
+$$c = 298900000 \text{ m/s} = 2.989 \times 10^8 \text{ m/s}$$
 
 ### Step 3.4: Compute the Experimental Percentage Error ($\text{E}_{\%}$)
-To benchmark the precision of this qualitative setup, evaluate the absolute fractional deviation relative to the established universal speed of light constant ($c_{\text{true}} = 3.00 \times 10^8 \text{ m/s}$):
+To benchmark the precision of this qualitative setup, evaluate the absolute fractional deviation relative to the established universal speed of light constant ($c_{\text{true}} = 3.00 \times 10^8 \text{ m/s}$). 
 
-$$\text{E}_{\%} = \frac{|c_{\text{true}} - c_{\text{measured}}|}{c_{\text{true}}} \times 100\%$$
-$$\text{E}_{\%} = \frac{|300,000,000 - 298,900,000|}{300,000,000} \times 100\%$$
-$$\text{E}_{\%} = \frac{1,100,000}{300,000,000} \times 100\% \approx 0.366667\%$$
+*Note: The absolute value bars are written using GitHub-safe `\left|` and `\right|` syntaxes to fix the syntax errors.*
+
+$$\text{E}_{\%} = \frac{\left| c_{\text{true}} - c_{\text{measured}} \right|}{c_{\text{true}}} \times 100\%$$
+
+$$\text{E}_{\%} = \frac{\left| 300000000 - 298900000 \right|}{300000000} \times 100\%$$
+
+$$\text{E}_{\%} = \frac{1100000}{300000000} \times 100\% \approx 0.366667\%$$
 
 Adhering to standard empirical rounding rules to three significant figures:
+
 $$\text{E}_{\%} \approx 0.37\%$$
 
 ---
