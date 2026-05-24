@@ -1,4 +1,4 @@
-# Question 5: Determination of Fractional and Percentage Uncertainty
+# Question 5: Quantitative Percentage Uncertainty Analysis
 
 ## 1. Objective and Problem Statement
 In experimental physics, quantifying the relative scale of an error in comparison to the magnitude of the measured quantity is essential for assessing data quality. 
@@ -21,27 +21,34 @@ While absolute uncertainty ($\delta t$) defines the raw margin of error in the s
 
 ---
 
-## 3. Analytical Treatment & Calculations
+## 3. Step-by-Step Analytical Calculation
 
 ### Step 3.1: Parameter Extraction
-From the empirical data provided, the core parameters are defined as:
+From the empirical data provided, we isolate the two key core components:
 * **Nominal Value of Time ($t$):** $5.45 \text{ s}$
 * **Absolute Uncertainty ($\delta t$):** $0.22 \text{ s}$
 
-### Step 3.2: Substitution and Fractional Evaluation
-Substituting the extracted parameters into the fractional uncertainty model yields:
-$$\text{U}_{\text{f}} = \frac{0.22 \text{ s}}{5.45 \text{ s}} \approx 0.04036697$$
+### Step 3.2: Calculate the Fractional Uncertainty
+Substitute the extracted parameters into the fractional uncertainty equation:
+$$\text{U}_{\text{f}} = \frac{0.22 \text{ s}}{5.45 \text{ s}}$$
 
-*(Note: The temporal units ($\text{s}$) cancel out, confirming that relative metrics are strictly dimensionless).*
+Executing the division:
+$$\text{U}_{\text{f}} \approx 0.040366972$$
 
-### Step 3.3: Percentage Scaling and Precision Rounding
-To convert the dimensionless ratio into percent notation, multiply by $100$:
-$$\text{U}_{\%} = 0.04036697 \times 100\% = 4.036697\%$$
+*(Note: The temporal units of seconds ($\text{s}$) in the numerator and denominator cancel out completely, confirming that relative metrics are strictly dimensionless).*
 
-Adhering to standard metrological protocols, uncertainty percentages derived from raw absolute data are conventionally restricted to **two or three significant figures** depending on the propagation bounds. Rounding to two decimal places maintains strict consistency with the input parameters:
+### Step 3.3: Calculate the Percentage Uncertainty
+To convert the dimensionless fractional ratio into percent notation, multiply the value by $100\%$:
+$$\text{U}_{\%} = \text{U}_{\text{f}} \times 100\%$$
+$$\text{U}_{\%} = 0.040366972 \times 100\% = 4.0366972\%$$
+
+### Step 3.4: Apply Metrological Rounding Rules
+Adhering to standard metrological protocols, final uncertainty percentages derived from raw data are conventionally restricted to **two or three significant figures** depending on the precision of the input apparatus. 
+
+Rounding our result to three significant figures (two decimal places) to maintain mathematical consistency with the original data precision yields:
 $$\text{U}_{\%} \approx 4.04\%$$
 
 ---
 
 ## 4. Final Scientific Conclusion
-The percentage uncertainty associated with the temporal measurement $t$ is determined to be **$4.04\%$**. This indicates a high level of experimental precision, as the margin of error accounts for less than $5\%$ of the total measured magnitude.
+The percentage uncertainty associated with the temporal measurement $t$ is determined to be **$4.04\%$**. This indicates a high level of experimental precision, as the total experimental margin of error accounts for less than $5\%$ of the measured baseline magnitude.
